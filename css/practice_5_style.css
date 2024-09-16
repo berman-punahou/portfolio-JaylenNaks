@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    height: auto;
+}
+
+.spacing {
+    padding: 10px;
+}
+
+#picbox {
+    background-color: aquamarine;
+}
+
+#box-a {
+    background-color: #F09EA7;
+}
+
+#box-b {
+    background-color: #F6C2F3;
+}
+
+#box-c {
+    background-color: #F6CA94;
+}
+
+#box-d {
+    background-color: #CDABEB;
+}
+
+#box-e {
+    background-color: #FAFABE;
+}
+
+#box-f {
+    background-color: #C7CAFF;
+}
+
+#box-g {
+    background-color: #C1EBC0;
+}
