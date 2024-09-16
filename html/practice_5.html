@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- Linking our own stylesheet here, followed by a Bootstrap stylesheet -->
+    <link href="practice_5_style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!-- We will put our 2x2 table here -->
+    <div class="container-fluid">
+        
+        <!-- First, we build a row across, with two columns -->
+        <div class="row">
+            <div id="box-a" class="col-sm-6 spacing">
+                Box A, red
+            </div>
+            <div id="box-b" class="col-sm-6 spacing">
+                Box B, violet
+            </div>
+        </div>
+
+        <!-- Build another row below, also with two columns -->
+        <div class="row">
+            <div id="box-c" class="col-sm-6 spacing">
+                Box C, orange
+            </div>
+            <div id="box-d" class="col-sm-6 spacing">
+                Box D, indigo
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="box-e" class="col-sm-6 spacing">
+                Box E, yellow
+            </div>
+            <div id="box-f" class="col-sm-6 spacing">
+                Box F, blue
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="box-g" class="col-sm-12 d-grid spacing">
+                Box G, green
+                <img src="https://www.pastelcolorpalettes.com/images/color-palette/7-color-pastels-rainbow.png" height="570px">
+                <a href="https://www.pastelcolorpalettes.com/7-color-pastels-rainbow" class="btn btn-outline-success btn-block">Color Pallete!</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Javascript required by Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+
+</html>
